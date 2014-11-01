@@ -1,0 +1,24 @@
+<NotepadPlus>
+    <Project name="Emvoy">
+        <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\emvoy.bat" />
+        <Folder name="Lists">
+            <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Support\SupportAppsList.ini" />
+            <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Emulators\EmulatorList.ini" />
+            <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\BootProfiles.ini" />
+        </Folder>
+        <Folder name="inis">
+            <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\emvoy.ini" />
+            <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Games\games.ini" />
+            <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Emulators\emulators.ini" />
+            <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Support\support.ini" />
+        </Folder>
+        <Folder name="Reference">
+            <File name="Ref Docs\Functions.bat" />
+            <File name="Ref Docs\INICommander Guide.txt" />
+            <File name="Ref Docs\Variables.bat" />
+            <File name="Ini files\psxtra-design.ini" />
+        </Folder>
+        <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\scratch.txt" />
+        <File name="C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Logs\emvoy.log" />
+    </Project>
+</NotepadPlus>

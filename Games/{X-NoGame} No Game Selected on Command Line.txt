@@ -1,0 +1,25 @@
+Game Profile Settings 
+
+Profile No: {X-NoGame}  
+Key Name: No Game Selected on Command Line 
+List Name: No Game Profile Selected 
+Short Name: No Game Profile Selected 
+
+File: 
+Filename:No Game Profile Selected 
+Path:	No Game Profile Selected 
+
+Emulator: 
+Emu No:	X-dummy 
+Name:	Dummy in lieu of game profile 
+Cmd: No Game Profile Selected 
+
+Daemon Tools: 
+Use?	No Game Profile Selected 
+
+QLaunch:	No Game Profile Selected 
+Mem cards:	Future Dev 
+
+Support Apps: No Game Profile Selected 
+
+Profile Updated: 17/01/1974  11:17:48.37 

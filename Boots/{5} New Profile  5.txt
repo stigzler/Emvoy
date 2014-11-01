@@ -1,0 +1,31 @@
+Boot Profile Settings 
+
+Profile: {5} New Profile  5 
+Description:	
+Template used to create a new boot profile. 
+
+Directories:
+Qlaunch:	C:\Windows 
+PakkIso:	C:\Windows 
+DTools:	C:\Windows\notepad.exe 
+7Zip:	C:\Windows 
+Games:	C:\Windows 
+
+Selections:
+Emulator:		1: PCSX-R 
+Quicklaunch:	keep 
+Support Apps:	1: Fraps 
+ 
+Switches:
+[false]: Quit EmVoy when the Game or Emluator closes
+[false]: Skip this admin menu - controls via command line
+[false]: Show update messages to user (no click required)
+[false]: Prompt admin/user input for various functions
+[false]: Show command line window
+[false]: Create Log
+[false]: Create Log History
+[false]: Skip the UnZip part of the Emvoy process
+[false]: Skip the UnECM part of the Emvoy process
+[false]: Skip making Quicklaunch Folder
+
+Profile Updated: 26/10/2014 12:58:23.53 

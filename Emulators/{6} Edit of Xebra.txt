@@ -1,0 +1,22 @@
+Emulator Profile Settings 
+
+Profile: {6} Edit of Xebra 
+Notes:	
+Put any notes in here. For example, boot extension orders etc. 
+
+Emulator:
+Exe used:	C:\Windows\notepad.exe 
+Cmd add:	[blank] 
+
+DaemonTools: 
+Use?	true 
+Drive:	C: 
+Ext Order: img,iso,mdf,ccd,cue 
+
+Settings Script: 
+Use?	true 
+Script:	C:\Windows\notepad.exe 
+
+Support Apps: 2: Notepad;99: Notepad 
+
+Profile Updated: 26/10/2014 13:06:51.00 

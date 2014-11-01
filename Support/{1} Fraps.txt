@@ -1,0 +1,13 @@
+Support App Profile Settings 
+
+Profile: {1} Fraps 
+Notes:	
+For checking framerates 
+
+Support App:
+Exe used:	C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Emulators\pcsxr_settings.bat 
+Cmd add:	-frps 
+
+Quit with Game?	false 
+
+Profile Updated: 26/10/2014 15:09:51.16 

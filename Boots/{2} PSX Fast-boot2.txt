@@ -1,0 +1,31 @@
+Boot Profile Settings 
+
+Profile: {2} PSX Fast-boot2 
+Description:	
+Boots into admin menu with default settings for PSX files. 
+
+Directories:
+Qlaunch:	C:\Windows 
+PakkIso:	C:\Windows 
+DTools:	C:\Windows\notepad.exe 
+7Zip:	C:\Windows 
+Games:	I:\EmuTests\roms\SNES\MixedSet 
+
+Selections:
+Emulator:		1: PCSX-R 
+Quicklaunch:	keep 
+Support Apps:	1: Fraps 
+ 
+Switches:
+[true]: Quit EmVoy when the Game or Emluator closes
+[false]: Skip this admin menu - controls via command line
+[true]: Show update messages to user (no click required)
+[true]: Prompt admin/user input for various functions
+[true]: Show command line window
+[true]: Create Log
+[false]: Create Log History
+[false]: Skip the UnZip part of the Emvoy process
+[false]: Skip the UnECM part of the Emvoy process
+[false]: Skip making Quicklaunch Folder
+
+Profile Updated: 30/10/2014 19:24:10.23 

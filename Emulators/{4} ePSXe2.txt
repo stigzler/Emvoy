@@ -1,0 +1,22 @@
+Emulator Profile Settings 
+
+Profile: {4} ePSXe2 
+Notes:	
+Great emu for stable, smooth gfx where 3D/Poly rendering used. 
+
+Emulator:
+Exe used:	C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Emulators\EmulatorList.ini 
+Cmd add:	-nogui -runcd 
+
+DaemonTools: 
+Use?	true 
+Drive:	J: 
+Ext Order: img,iso,mdf,ccd,cue 
+
+Settings Script: 
+Use?	true 
+Script:	C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Emulators\pcsxr_settings.bat 
+
+Support Apps: 3: TroubleShooter;99: Notepad 
+
+Profile Updated: 28/10/2014 19:38:39.90 

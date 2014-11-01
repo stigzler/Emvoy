@@ -1,0 +1,22 @@
+Emulator Profile Settings 
+
+Profile: {3} PSx 
+Notes:	
+hgjkgjhg 
+
+Emulator:
+Exe used:	C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Emulators\pcsxr_settings.bat 
+Cmd add:	-nogui -runcd 
+
+DaemonTools: 
+Use?	true 
+Drive:	J: 
+Ext Order: img,iso,mdf,ccd,cue 
+
+Settings Script: 
+Use?	false 
+Script:	C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Emulators\pcsxr_settings.bat 
+
+Support Apps: 1: Fraps 
+
+Profile Updated: 26/10/2014 11:17:13.96 

@@ -1,0 +1,22 @@
+Emulator Profile Settings 
+
+Profile: {2} Xenomorph 
+Notes:	
+Put any notes in here. For example, boot extension orders etc. 
+
+Emulator:
+Exe used:	C:\Windows\notepad.exe 
+Cmd add:	[blank] 
+
+DaemonTools: 
+Use?	true 
+Drive:	C:\ 
+Ext Order: img,iso,mdf,ccd,cue 
+
+Settings Script: 
+Use?	true 
+Script:	C:\Windows\notepad.exe 
+
+Support Apps:  
+
+Profile Updated: 29/10/2014 20:22:49.79 

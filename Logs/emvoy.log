@@ -1,0 +1,82 @@
+Start of Emvoy Log  
+Last run: 01/11/2014 12:43:01.41  
+  
+# Starting EmVoy... 
+  
+# Processing parameters passed from Command Line-- 
+# Parsing command line for switches and values: 
+Original cmd line: [] 
+Directory: [] 
+File: [] 
+Profile: [] 
+Default Emulator: [] 
+Specified Gamename: [] 
+Dequoted game name: [] 
+# Loading correct Boot Profile depending on circumstances.... 
+Reading Default Profile number from emvoy.ini: 
+	{SUB: IniCmd: Various ini file functions} 
+	{		Parameters recieved: /m read /s "X-boot" /k _dpsDefProfile /f emvoy.ini  
+	{		Final return variable:  [2]  
+	{ENDSUB IniCmd} 
+There is no boot profile specified in the command line. 
+Retriving details of default profile.  
+	{SUB: IniCmd: Various ini file functions} 
+	{		Parameters recieved: /m read /s X-boot /k _dpsDefProfile /f emvoy.ini  
+	{		Final return variable:  [2]  
+	{ENDSUB IniCmd} 
+Default profile: [2] 
+Checking if gamefile specified: 
+No gamefile is specified in command line. Checking whether the default profile has 'Skip admin' enabled.... 
+ 
+	{SUB: IniCmd: Various ini file functions} 
+	{		Parameters recieved: /m read /s 2 /k _dpsSkipAdmin /f emvoy.ini  
+	{		Final return variable:  [false]  
+	{ENDSUB IniCmd} 
+Skip Admin in defualt profile: [false] 
+Profile has Skip Admin disabled. Therefore, preserving Default Profile.  
+	{SUB: Load Ini Section Vars} 
+	{	Loading Vars from Section: [2]  
+	{END SUB Load Ini Section Vars} 
+ 
+===================================== 
+Boot Profile being used is: [2] 
+Boot Profile Name: [PSX Fast-boot2] 
+Boot Profile Description: Boots into admin menu with default settings for PSX files. 
+===================================== 
+ 
+	{SUB: Load Ini Section Vars} 
+	{	Loading Vars from Section: [X-NoGame]  
+	{END SUB Load Ini Section Vars} 
+ 
+	{SUB: Load Ini Section Vars} 
+	{	Loading Vars from Section: [X-dummy]  
+	{END SUB Load Ini Section Vars} 
+ 
+	{SUB: IniCmd: Various ini file functions} 
+	{		Parameters recieved: /m read /f emvoy.ini /s X-boot /k _dpsSetupStatus  
+	{		Final return variable:  [complete]  
+	{ENDSUB IniCmd} 
+	{SUB: Load Ini Section Vars} 
+	{	Loading Vars from Section: [1]  
+	{END SUB Load Ini Section Vars} 
+ 
+	{SUB: Load Ini Section Vars} 
+	{	Loading Vars from Section: [1]  
+	{END SUB Load Ini Section Vars} 
+ 
+	{SUB: IniCmd: Various ini file functions} 
+	{		Parameters recieved: /m read /f emvoy.ini /s X-boot /k _dpsSetupStatus  
+	{		Final return variable:  [complete]  
+	{ENDSUB IniCmd} 
+	{SUB: Load Ini Section Vars} 
+	{	Loading Vars from Section: [Games\games.ini]  
+	{END SUB Load Ini Section Vars} 
+ 
+	{SUB: Load Ini Section Vars} 
+	{	Loading Vars from Section: [1]  
+	{END SUB Load Ini Section Vars} 
+ 
+	{SUB: Populate temp Vars from ini + specified section} 
+	{	Populating prefixed [] temp vars from Section: [Games\games.ini] in file: [_tmpGameP]   
+	{END SUB Load Ini Section Vars} 
+ 

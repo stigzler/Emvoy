@@ -1,0 +1,25 @@
+Game Profile Settings 
+
+Profile No: {1} 
+Key Name: Wipeout 3  NTSC-U   SLUS-00865 cue {5-Xebra} 
+List Name: Wipeout 3 {5-Xebra} 
+Short Name: Wipeout 3 
+
+File: 
+Filename:Wipeout 3 [NTSC-U] [SLUS-00865].cue 
+Path:	I:\EmuTests\roms\Playstation\MIxedSet 
+
+Emulator: 
+Emu No:	5 
+Name:	Xebra 
+Cmd: -fullscreen 
+
+Daemon Tools: 
+Use?	true 
+
+QLaunch:	keep 
+Mem cards:	Future Dev 
+
+Support Apps: 1 
+
+Profile Updated: 30/10/2014 18:39:05.56 

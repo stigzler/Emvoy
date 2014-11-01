@@ -1,0 +1,22 @@
+Emulator Profile Settings 
+
+Profile: {1} PCSX-R 
+Notes:	
+ewdwdwe 
+
+Emulator:
+Exe used:	C:\Emulators\pcsxr-1.9.93-win32\pcsxr\pcsxr.exe 
+Cmd add:	-nogui -runcd 
+
+DaemonTools: 
+Use?	true 
+Drive:	J: 
+Ext Order: img,iso,mdf,ccd,cue 
+
+Settings Script: 
+Use?	true 
+Script:	C:\GameEx\AHKS_BATS\Launchers\Emvoy\Emvoy\Emulators\pcsxr_settings.bat 
+
+Support Apps: 2: Notepad;99: Notepad 
+
+Profile Updated: 26/10/2014 11:24:19.37 

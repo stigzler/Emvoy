@@ -1,0 +1,13 @@
+Support App Profile Settings 
+
+Profile: {3} TroubleShooter 
+Notes:	
+Lightguns 
+
+Support App:
+Exe used:	C:\Windows\notepad.exe 
+Cmd add:	-gun1 -gun2 -sights 
+
+Quit with Game?	true 
+
+Profile Updated: 26/10/2014 15:02:12.12 

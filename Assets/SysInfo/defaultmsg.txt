@@ -1,0 +1,4 @@
+This has been opened via a default within EmVoy. For instance, you may have created a new boot/emulator/support app profile and forgotten to change the default settings. Any settings requiring a file will defualt to notepad!
+
+Have a coffee, change yer space and come back to it. :)
+

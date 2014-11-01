@@ -1,0 +1,25 @@
+Game Profile Settings 
+
+Profile No: {1} 
+Key Name: Wipeout 3  NTSC-U   SLUS-00865 cue {1-PCSX-R} 
+List Name: Wipeout 3 {1-PCSX-R} 
+Short Name: Wipeout 3 
+
+File: 
+Filename:Wipeout 3 [NTSC-U] [SLUS-00865].cue 
+Path:	I:\EmuTests\roms\Playstation\MIxedSet 
+
+Emulator: 
+Emu No:	1 
+Name:	PCSX-R 
+Cmd: -fullscreen - stig 
+
+Daemon Tools: 
+Use?	true 
+
+QLaunch:	ask 
+Mem cards:	Future Dev 
+
+Support Apps: 1,2,3,99 
+
+Profile Updated: 01/11/2014 12:25:44.17 

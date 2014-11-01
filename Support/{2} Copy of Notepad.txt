@@ -1,0 +1,13 @@
+Support App Profile Settings 
+
+Profile: {99} Notepad 
+Notes:	
+Simple notepad 
+
+Support App:
+Exe used:	C:\Windows\notepad.exe 
+Cmd add:	"=^" 
+
+Quit with Game?	true 
+
+Profile Updated: 30/10/2014 20:10:47.18 

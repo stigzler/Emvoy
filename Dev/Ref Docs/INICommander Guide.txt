@@ -1,0 +1,77 @@
+'********************************************************************
+'* Class IniDocument
+'*
+'* Version:   1.0.4
+'* Date:      08/29/2008
+'*
+'* Purpose: Class to handle INI and INF File tasks.  For details on
+'*             the use of each Method, see the comments on the method.
+'*             Class Properties are documented in the Declare Class 
+'*             Properties section.
+'*          INI file must be loaded into memory with the Load method
+'*             before using other methods.  Changes are not saved to
+'*             disk until the Save method is used.
+'*          The Additional Methods may be deleted from the Class if
+'*             they are not needed or the script file size is to large.
+'*             However, the Private Procedures should not be deleted.
+'*
+'* Basic Methods: 
+'*
+'*          Load               Load the INI file into memory.
+'*
+'*          Save               Save the INI file back to disk.
+'*
+'*          SaveAs             Save the INI file back to disk using 
+'*                                another file name.
+'*
+'*          ReadValue          Read the Value for the first occurance 
+'*                                of a Key in an INI file section
+'*
+'*          ReadKeyNames       Read all Key names in INI file Section
+'*
+'*          ReadSectionNames   Read all Section Names in an INI file
+'*
+'*          WriteEntry         Write a Key & Value entry to an INI 
+'*                               file section.
+'*
+'* Additional Methods:
+'*
+'*          ReadValueAll       Read all Values for a given Key name 
+'*                                in an INI file (i.e. if there are 
+'*                                duplicate Keys in a section)
+'*
+'*          ReadKeyValueLines  Read all raw Key=Value lines in INI 
+'*                                file Section
+'*
+'*          ReadKeyValuePairs  Read all Key/Value pairs in INI file
+'*                                Section into a 2D Array
+'*
+'*          ReadInfLines       Read all INF-type lines (not Key=Value)
+'*                                in INI/INF file Section
+'*
+'*          ReadComments       Read all comment lines and trailing 
+'*                                comments in INI/INF file Section
+'*
+'*          ReadAllLines       Read all raw lines in INI/INF file Section
+'*
+'*          AddEntry           Add a Key & Value entry to an INI
+'*                                section (does not validate if Key
+'*                                exists and will not change existing
+'*                                values with the same Key name)
+'*
+'*          AddTextLine        Write a text line to the INI/INF file 
+'*                                section
+'* 
+'*          DeleteKey          Delete the Key for the first occurance 
+'*                                of a Key in an INI file section
+'*
+'*          DeleteKeyAll       Delete all occurances of a Key in an 
+'*                                INI file section (i.e. if there are 
+'*                                duplicate Keys in a section)
+'*
+'*          DeleteSection      Delete an INI file section
+'*
+'*          ExpandINFStringVariables
+'*                             Expands String variables (entries found 
+'*                                in the [Strings] section of an INF file)
+'*
